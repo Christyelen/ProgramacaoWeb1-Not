@@ -1,0 +1,49 @@
+/*
+seletor{
+    propriedade: valor;
+ }
+
+*/
+
+/*h1{
+    border: 5px solid burlywood;
+    color: white;
+    background-color: blueviolet;
+    padding: 20px;
+    margin: 100px;
+}*/
+
+h1{
+  font-family:Georgia ;
+}
+h2{
+  font-family:Verdana;
+    color: #8f8e8e;
+}
+
+tr, .uf{
+    text-align: left;
+} 
+
+.Dif{
+  
+}
+table {
+    font-family: Verdana;
+    border-collapse: collapse;
+    
+  }
+  
+  td, th {
+    color: grey;
+    border: 1px solid #ececec;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ececec;
+  }
+
+
+
