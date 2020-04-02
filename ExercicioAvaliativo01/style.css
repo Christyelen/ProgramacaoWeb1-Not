@@ -1,49 +1,49 @@
-/*
-seletor{
-    propriedade: valor;
- }
-
-*/
-
-/*h1{
-    border: 5px solid burlywood;
-    color: white;
-    background-color: blueviolet;
-    padding: 20px;
-    margin: 100px;
-}*/
-
-h1{
-  font-family:Georgia ;
-}
-h2{
-  font-family:Verdana;
-    color: #8f8e8e;
+h1 {
+    font-family: Verdana;
 }
 
-tr, .uf{
+h2 {
+    font-family: sans-serif;
+    color: #7d7d7d;
+}
+
+.uf {
     text-align: left;
-} 
-
-.Dif{
-  
 }
+
 table {
     font-family: Verdana;
     border-collapse: collapse;
-    
-  }
-  
-  td, th {
+}
+
+.ultimaLinha {
+    color: white;
+    background-color: #c4180c;
+}
+
+.colunas {
+    width: 210px;
+    border-color: white;
+    color: rgb(54, 52, 52);
+    font-family: Verdana;
+    font-weight: 100;
+}
+
+td,
+th {
     color: grey;
-    border: 1px solid #ececec;
+    border: 1px solid #e4e4e4;
     text-align: center;
     padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #ececec;
-  }
+}
 
+tr:nth-child(even) {
+    background-color: #e8e8e8;
+}
 
-
+p {
+    font-family: Verdana;
+    color: grey;
+    text-align: right;
+    font-size: 14px;
+}
