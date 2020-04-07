@@ -1,0 +1,35 @@
+#conteudo-central {
+  display: flex;
+  flex-direction: row;
+}
+
+#conteudo-central nav {
+  flex-basis: 150px;
+  border: 1px solid red;
+  background-color: cyan;
+}
+
+#conteudo-central main {
+  flex-grow: 1;
+  border: 1px solid red;
+} 
+
+@media screen and (max-width: 600px){
+  #conteudo-central {
+    flex-direction: column;
+  }
+}
+
+header{
+  border: 1px solid red;
+  background-color: blue;
+}
+main{
+  border: 1px solid red;
+  background-color: dodgerblue;
+}
+
+footer{
+  border: 1px solid red;
+  background-color: blue;
+}
