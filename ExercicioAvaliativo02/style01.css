@@ -1,0 +1,27 @@
+.menu ul li{
+background-color: dodgerblue;
+color: floralwhite;
+
+width: 200px;
+height: 40px;
+display: inline-block;
+text-align: center;
+line-height: 40px;
+font-size: 25px;
+float: left;
+}
+
+.menu ul li:hover{
+    background-color: indigo;
+}
+
+.menu ul{
+    padding: 0;
+}
+
+.menu ul ul{
+    display: none;
+}
+.menu ul li:hover > ul{
+ display: block;
+}
