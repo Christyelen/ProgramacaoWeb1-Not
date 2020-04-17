@@ -9,21 +9,16 @@
      <h1><b>Lista</b></h1>
     <ul class="wrapper">
         <li>oi</li>
+        
     </ul>
+
     <script>
-
-var $wrapper = document.querySelector('.wrapper'),
-    // Pega a string do conteúdo atual
    var cores = [];
-   cores[0] = azul;
-   cores[1] = vermelho;
-   cores[2]= rosa;
+   cores.push("Azul", "Vermelho", "Verde");
 
-   for (var i = 0; i < cores.length; i++) {
-    HTMLNovo = '<li>' + cores.i + '</li>';
-    }
- 
-
+   cores.forEach(function(valor, indice){
+       console.log("o Valor é :" + valor + "e o indice é: " + indice)})
+        var resultado ="<li>" + valor + "</li>";
     </script>
 </body>
 
