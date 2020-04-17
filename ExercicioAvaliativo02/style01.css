@@ -25,3 +25,7 @@ float: left;
 .menu ul li:hover > ul{
  display: block;
 }
+
+body{
+    background-color: lightblue;
+}
