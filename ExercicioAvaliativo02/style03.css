@@ -1,0 +1,20 @@
+#conteudo{
+    border: 2px;
+    color: blue;   
+}
+li{
+    font-family: Arial;
+    font-size: 16px;
+    color: blue;
+}
+
+body{
+   background-color: darkturquoise;
+}
+
+button{
+    color: indigo;
+    border: mediumblue;
+    text-align: center;
+
+}

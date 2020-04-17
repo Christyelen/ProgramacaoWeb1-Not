@@ -4,22 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-     <h1><b>Lista</b></h1>
-    <ul class="wrapper">
-        <li>oi</li>
-        
-    </ul>
+    <link rel="stylesheet" href="style03.css">
 
     <script>
-   var cores = [];
-   cores.push("Azul", "Vermelho", "Verde");
+function adicionarElementos(){
+    var input = document.getElementById('texto');
+    var valorTexto = input.value;
+    var NovaLinha = document.createElement('li');
+    NovaLinha.innerHTML = valorTexto;
+    var div = document.getElementById('conteudo');
+    if(valorTexto == null){
+        var erro = document.getElementById("erro");
+        div.appendChild(erro);
+    }
+    else{
+    div.appendChild(NovaLinha);
+    }
+}
 
-   cores.forEach(function(valor, indice){
-       console.log("o Valor é :" + valor + "e o indice é: " + indice)})
-        var resultado ="<li>" + valor + "</li>";
-    </script>
+
+    </script>   
+</head>
+<body>
+     <h1 id="titulo"><b>Lista</b></h1>
+    <div id="conteudo;"></div>    
+    <input id="texto">
+    <p id="erro" style="visibility: hidden;">Digite algum valor</p>
+    <button onclick="adicionarElementos()">Adicionar Conteúdo</button>
 </body>
 
 </html>
