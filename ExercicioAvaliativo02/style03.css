@@ -1,19 +1,34 @@
 p{
     font-family: Arial;
     font-size: 16px;
-    color: white;
+    color: blue;
 }
 
 button{
     background-color:  royalblue;
-    border: mediumblue;
-    color: white;
+    border: hsl(240, 100%, 40%);
+    color: skyblue;
     text-align: center;
     font-family: Arial;
     font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+
 
 }
+input{
+    border-radius: 5px;
+    background-color: skyblue;
+    border: blue; 
+    width: 200px;
+    height: 20px;
+}
 
+.botao:hover{
+    background-color: skyblue;
+    color:mediumblue;
+    cursor: pointer;
+}
 #conteudo{
     border: 2px;
     color: blue;   
@@ -23,8 +38,10 @@ li{
     font-size: 16px;
     color: blue;
     color-adjust: black;
+    
 }
 
 body{
    background-color: powderblue;
+   text-align: center;
 }

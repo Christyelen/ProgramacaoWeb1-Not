@@ -21,20 +21,17 @@ function adicionarElementos(){
         NovaLinha.innerHTML = valorTexto;
         div.appendChild(NovaLinha);    
     }
-    
-    
 }
-
-
-    </script>   
+</script>   
 </head>
 <body>
-     <h1 id="titulo"><b>Lista</b></h1>
-    <div id="conteudo"></div>    
-    <input id="texto">
+    <h1 id="titulo"><b>Lista: </b></h1>
+    <input style="border-radius: 5px; background-color: skyblue; border: blue; width: 200px; height: 20px;" id="texto">
+    <p></p>
+    <button onclick="adicionarElementos()" class="botao">Adicionar Conteúdo</button>
+    <p></p>
+    <div id="conteudo"></div> 
     <p id="Erro"></p>
-    <br>
-    <button onclick="adicionarElementos()">Adicionar Conteúdo</button>
 </body>
 
 </html>
