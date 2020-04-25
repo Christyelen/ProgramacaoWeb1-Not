@@ -11,15 +11,18 @@ function adicionarElementos(){
     var input = document.getElementById('texto');
     var valorTexto = input.value;
     var NovaLinha = document.createElement('li');
-    NovaLinha.innerHTML = valorTexto;
+   
     var div = document.getElementById('conteudo');
-    if(valorTexto == null){
-        var erro = document.getElementById("erro");
-        div.appendChild(erro);
+    if(valorTexto == ""){
+        document.getElementById("Erro").innerHTML = "Insira um texto para adicionar na lista";
+        
+    }else{
+        document.getElementById("Erro").innerHTML = "";
+        NovaLinha.innerHTML = valorTexto;
+        div.appendChild(NovaLinha);    
     }
-    else{
-    div.appendChild(NovaLinha);
-    }
+    
+    
 }
 
 
@@ -27,9 +30,9 @@ function adicionarElementos(){
 </head>
 <body>
      <h1 id="titulo"><b>Lista</b></h1>
-    <div id="conteudo;"></div>    
+    <div id="conteudo"></div>    
     <input id="texto">
-    <p id="erro" style="visibility: hidden;">Digite algum valor</p>
+    <p id="Erro"></p>
     <button onclick="adicionarElementos()">Adicionar Conteúdo</button>
 </body>
 

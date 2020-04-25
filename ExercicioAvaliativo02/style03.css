@@ -1,3 +1,19 @@
+p{
+    font-family: Arial;
+    font-size: 16px;
+    color: white;
+}
+
+button{
+    background-color:  royalblue;
+    border: mediumblue;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+
+}
+
 #conteudo{
     border: 2px;
     color: blue;   
@@ -6,15 +22,9 @@ li{
     font-family: Arial;
     font-size: 16px;
     color: blue;
+    color-adjust: black;
 }
 
 body{
-   background-color: darkturquoise;
-}
-
-button{
-    color: indigo;
-    border: mediumblue;
-    text-align: center;
-
+   background-color: powderblue;
 }
