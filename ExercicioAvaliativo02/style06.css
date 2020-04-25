@@ -1,0 +1,32 @@
+p{
+    font-family: Arial;
+    font-size: 16px;
+    color: rosybrown;
+}
+
+button{
+    background-color:  rosybrown;
+    border: white;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+
+}
+
+#conteudo{
+    border: 2px;
+    color: blue;   
+}
+
+h1{
+ color: rosybrown;
+}
+
+body{
+   background-color: bisque;
+}
+
+.class .efeito :hover{
+    background-color: indigo;
+}
