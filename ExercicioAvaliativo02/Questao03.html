@@ -7,7 +7,13 @@
     <link rel="stylesheet" href="style03.css">
 
     <script>
-function adicionarElementos(){
+
+        function Limpar(){
+            document.getElementById("texto").value= "";
+            document.getElementById("conteudo").innerHTML= "";
+            document.getElementById("Erro").innerHTML="";
+        }
+    function adicionarElementos(){
     var input = document.getElementById('texto');
     var valorTexto = input.value;
     var NovaLinha = document.createElement('li');
@@ -29,6 +35,7 @@ function adicionarElementos(){
     <input id="texto">
     <p></p>
     <button onclick="adicionarElementos()" class="botao">Adicionar Conteúdo</button>
+    <button onclick="Limpar()" class="botao">Limpar</button>
     <p></p>
     <div id="conteudo"></div> 
     <p id="Erro"></p>

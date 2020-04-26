@@ -12,7 +12,7 @@
             document.getElementById('texto1').value = "";
             document.getElementById('texto2').value = "";
             document.getElementById('texto3').value = "";
-            document.getElementById('resposta').value = "";
+            document.getElementById("resposta").innerHTML= ""
          
         }
 
@@ -29,14 +29,15 @@
             var input3 = document.getElementById('texto3');
             var valorTexto3 = input3.value;
 
-           
-            if(valorTexto == "" || valorTexto2 == "" ||valorTexto3 == ""){
+             
+             if(valorTexto == "" || valorTexto2 == "" ||valorTexto3 == ""){
                 document.getElementById("resposta").innerHTML = "Insira um valor nos três campos para ser calculado";
                
             }
-            else if(!isNumber(valorTexto || valorTexto2 || valorTexto3)){
+            else if(!isNumber(valorTexto) || !isNumber(valorTexto2) || !isNumber(valorTexto3)){
                 document.getElementById("resposta").innerHTML = "Não são permitidos letras ou simbolos";
             }
+           
             else{
                 var resposta = parseInt(valorTexto) + parseInt(valorTexto2) + parseInt(valorTexto3);
 
@@ -64,7 +65,6 @@
         <label>Valor 1  </label>
         <input id="texto1" >
         </div>
-        
         <div class="valor2">
         <label>Valor 2  </label>
         <input  id="texto2">
@@ -76,9 +76,11 @@
     </div>
     <br>
 <div class="sidebar">
+<br>
+<button class="botao" type="button" onclick="soma()">Submit</button>
+<button class="botao" type="button" onclick="limparCampos()">Limpar</button>
+<br>
 <p id="resposta" ></p>
-<button type="button" onclick="soma()">Submit</button>
-<button type="button" onclick="limparCampos()">Limpar Campos</button>
 </div>
 
 </body>

@@ -19,7 +19,7 @@ button{
 input{
     border-radius: 5px;
     background-color: skyblue;
-    border: blue; 
+    border-color: blue; 
     width: 200px;
     height: 20px;
 }

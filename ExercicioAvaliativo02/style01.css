@@ -12,7 +12,8 @@ float: left;
 }
 
 .menu ul li:hover{
-    background-color: indigo;
+    background-color: steelblue;
+   cursor: pointer;
 }
 
 .menu ul{

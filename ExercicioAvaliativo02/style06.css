@@ -4,7 +4,9 @@ p{
     color: rosybrown;
 }
 
-button{
+
+
+.botao{
     background-color:  rosybrown;
     border: white;
     color: white;
@@ -16,6 +18,17 @@ button{
 
 }
 
+.botao:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rosybrown;
+}
+
+input{
+    border-radius: 5px;
+    border-color: rosybrown;
+    border-style: solid;
+}
 h1{
  color: rosybrown;
 }
@@ -25,10 +38,3 @@ body{
    background-color: bisque;
 }
 
-
-.botao :hover{
-    cursor: pointer;
-    background-color: white;
-    color: rosybrown;
- 
-}
