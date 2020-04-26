@@ -1,14 +1,16 @@
 th:hover {
-    border-style: double;
-    border-color: blue;
+    border-style: solid;
+    border-color: peru;
 }
 
 body{
-    background-color: aquamarine;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
 }
 
 th{
     background-color: white;
     border-collapse: initial;
 }
+
 
