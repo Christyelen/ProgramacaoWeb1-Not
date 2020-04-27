@@ -1,1 +1,1 @@
-Alunos: Chrisyelen Kramel e Vinicius Pereira Forte
+Alunos: Christyelen Kramel e Vinicius Pereira Forte
