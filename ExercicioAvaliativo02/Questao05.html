@@ -16,12 +16,10 @@
          
         }
 
-         function isNumber(n) {
-             return !isNaN(parseFloat(n)) && isFinite(n);
+        function isNumber(n) {
+            return !isNaN(parseFloat(n)) && isFinite(n);
         }
         function soma(){
-
-            
             var input = document.getElementById('texto1');
             var valorTexto = input.value;
             var input2 = document.getElementById('texto2');
@@ -30,7 +28,7 @@
             var valorTexto3 = input3.value;
 
              
-             if(valorTexto == "" || valorTexto2 == "" ||valorTexto3 == ""){
+            if(valorTexto == "" || valorTexto2 == "" ||valorTexto3 == ""){
                 document.getElementById("resposta").innerHTML = "Insira um valor nos três campos para ser calculado";
                
             }
